@@ -14,3 +14,7 @@ build/*
 xcuserdata
 profile
 *.moved-aside
+
+CardIO/*.h
+CardIO/*.m
+CardIO/*.a

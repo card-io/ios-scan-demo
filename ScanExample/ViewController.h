@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "CardIOPaymentViewControllerDelegate.h"
 
-@interface ViewController : UIViewController <CardIOPaymentViewControllerDelegate>
-
-- (IBAction)scanCardClicked:(id)sender;
+@interface ViewController : UIViewController
 
 @end
