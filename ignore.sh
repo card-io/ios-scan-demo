@@ -1,6 +1,6 @@
 #!/bin/sh
 
-GitRoot="`dirname \"$0\"`"
+# Set Git to ignore locally changed Constants.h after the default is set
 
 case "$1" in
   ignore)
