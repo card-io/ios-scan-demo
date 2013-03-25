@@ -24,8 +24,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    NSAssert(self.infoLabel, @"Info Label must be connected");
     self.infoLabel.text = @"";
 }
 
@@ -34,6 +32,7 @@
 
 - (void)scanCardClicked:(id)sender {
     CardIOPaymentViewController *scanViewController = [[CardIOPaymentViewController alloc] initWithPaymentDelegate:self];
+    scanViewController.modalPresentationStyle = UIModalPresentationFormSheet;
     scanViewController.appToken = CardIOAppToken; // see Constants.h
     [self presentViewController:scanViewController animated:TRUE completion:nil];
 }
