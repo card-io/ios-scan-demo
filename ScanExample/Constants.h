@@ -3,7 +3,7 @@
 //  ScanExample
 //
 //  Created by Brennan Stehling on 3/24/13.
-//  Copyright (c) 2013 card.io. All rights reserved.
+//  Copyright (c) 2013 PayPal. All rights reserved.
 //
 
 #ifndef ScanExample_Constants_h
